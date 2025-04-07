@@ -14,12 +14,12 @@
 
 <link rel="stylesheet" href="/main.0a7a2b5a1b8c3479fd45ade06b398a82f37d73f95ce11b9c70a5e68a93088fbc18a898fd90f72b8c34c03161cfdc16c11b3e16faeca0761697b85b5e402aef03.css" integrity="sha512-CnorWhuMNHn9Ra3gazmKgvN9c/lc4RuccKXmipMIj7wYqJj9kPcrjDTAMWHP3BbBGz4W&#43;uygdhaXuFteQCrvAw==" crossorigin="anonymous">
 
-<noscript><style>img.lazyload { display: none; }</style></noscript><base href="http://localhost:1313/404.html">
+<noscript><style>img.lazyload { display: none; }</style></noscript><base href="http://localhost:1313/docs/exercises/">
 
-  <link rel="canonical" href="http://localhost:1313/404.html">
+  <link rel="canonical" href="http://localhost:1313/docs/exercises/">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/docs/exercises/index.xml" title="Exercises | My Docs"><link rel="sitemap" type="application/xml" href="http://localhost:1313/docs/exercises/sitemap.xml" title="Exercises | My Docs">
 
-
-<title>404 Page not found  |  My Docs</title>
+<title>Exercises  |  My Docs</title>
 <meta name="description" content="Congrats on setting up a new Doks project!">
 
     
@@ -47,9 +47,9 @@
       >
 <link rel="manifest" href="/manifest.webmanifest">
 
-<meta property="og:url" content="http://localhost:1313/404.html">
+<meta property="og:url" content="http://localhost:1313/docs/exercises/">
   <meta property="og:site_name" content="My Docs">
-  <meta property="og:title" content="404 Page not found">
+  <meta property="og:title" content="Exercises">
   <meta property="og:description" content="Congrats on setting up a new Doks project!">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
@@ -57,10 +57,11 @@
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/cover.png">
-  <meta name="twitter:title" content="404 Page not found">
+  <meta name="twitter:title" content="Exercises">
   <meta name="twitter:description" content="Congrats on setting up a new Doks project!">
       <meta name="twitter:site" content="@getdoks">
 
+    
     <script type="application/ld+json">
   {
    "@context": "https://schema.org",
@@ -74,8 +75,14 @@
      },
      {
        "@type": "ListItem",
-       "name": "404 Page Not Found",
+       "item": "http://localhost:1313/docs/",
+       "name": "Docs",
        "position": 2
+     },
+     {
+       "@type": "ListItem",
+       "name": "Exercises",
+       "position": 3
      }
    ]
  }
@@ -88,7 +95,7 @@
 </head>
 
   
-  <body class="single error404" data-bs-spy="scroll" data-bs-target="#toc" data-bs-root-margin="0px 0px -60%" data-bs-smooth-scroll="true" tabindex="0">
+  <body class="list section docs" data-bs-spy="scroll" data-bs-target="#toc" data-bs-root-margin="0px 0px -60%" data-bs-smooth-scroll="true" tabindex="0">
     <div class="sticky-top">
 <header class="navbar navbar-expand-lg">
   <div class="container-lg">
@@ -105,6 +112,54 @@
       </svg>
     </button>
     
+    <button class="btn btn-link d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavSection" aria-controls="offcanvasNavSection" aria-label="Open section navigation menu">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-dots-vertical" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+        <path d="M12 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+        <path d="M12 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+      </svg>
+    </button>
+    <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasNavSection" aria-labelledby="offcanvasNavSectionLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavSectionLabel">Docs</h5>
+        <button type="button" class="btn btn-link nav-link p-0 ms-auto" data-bs-dismiss="offcanvas" aria-label="Close">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M18 6l-12 12"></path>
+            <path d="M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
+      <div class="offcanvas-body">
+        <aside class="doks-sidebar mt-n3">
+          <nav id="doks-docs-nav" aria-label="Tertiary navigation">
+            
+  
+    
+<nav class="section-nav docs-links">
+  <ul class="list-unstyled">
+
+  <li class="active" >
+    <details open open>
+      <summary>Exercises</summary>
+      <ul class="list-unstyled list-nested">
+
+  <li>
+      <a href="/docs/exercises/1.-setting-up-a-clean-architecture-solution/">1. Setting Up a Clean Architecture Solution</a>
+  </li>
+      </ul>
+    </details>
+  </li>
+  </ul>
+</nav>
+
+  
+
+          </nav>
+        </aside>
+      </div>
+    </div>
     
     <button class="btn btn-link nav-link mx-2 order-3 d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavMain" aria-controls="offcanvasNavMain" aria-label="Open main navigation menu">
       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -129,7 +184,7 @@
       
       <div class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between">
         <ul class="navbar-nav flex-grow-1"><li class="nav-item">
-                <a class="nav-link" href="http://localhost:1313/docs/guides/example-guide/">Docs</a>
+                <a class="nav-link active" href="http://localhost:1313/docs/guides/example-guide/" aria-current="true">Docs</a>
               </li>
             <li class="nav-item">
                 <a class="nav-link" href="http://localhost:1313/blog/">Blog</a>
@@ -228,8 +283,22 @@
 <div class="row justify-content-center">
   <div class="col-md-12 col-lg-10 col-xl-8">
     <article>
-      <h1 class="text-center">Page not found :(</h1>
-      <p class="text-center">The page you are looking for doesn&#39;t exist or has been moved.</p>
+      <h1 class="text-center">Exercises</h1>
+      
+			<div class="card-list">
+				
+				
+					
+						<div class="card my-3">
+							<div class="card-body">
+								<a class="stretched-link" href="/docs/exercises/1.-setting-up-a-clean-architecture-solution/">1. Setting Up a Clean Architecture Solution &rarr;</a>
+							</div>
+						</div>
+					
+				
+					
+				
+			</div>
     </article>
   </div>
 </div>

@@ -1,14 +1,12 @@
 ---
-title: "Reference"
+title: "Exercises"
 description: ""
 summary: ""
-date: 2023-09-07T16:12:37+02:00
-lastmod: 2023-09-07T16:12:37+02:00
+date: 2025-04-07
+lastmod: 2025-04-07
 draft: false
-weight: 900
+weight: 700
 toc: true
-sidebar:
-  collapsed: true
 seo:
   title: "" # custom title (optional)
   description: "" # custom description (recommended)
