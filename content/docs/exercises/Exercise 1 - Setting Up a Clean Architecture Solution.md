@@ -1,9 +1,9 @@
-+++
-title = "1. Setting Up a Clean Architecture Solution"
-weight = 1
-date = 2025-04-07
-draft = false
-+++
+---
+title: "Setting Up a Clean Architecture Solution"
+date: 2023-09-07
+draft: false
+weight: 810
+---
 
 ## 🎯 Goal
 
