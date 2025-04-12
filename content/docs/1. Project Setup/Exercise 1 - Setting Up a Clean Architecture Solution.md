@@ -4,6 +4,7 @@ date: "2023-09-07"
 lastmod: "2025-04-12"
 draft: false
 weight: 101
+toc: true
 ---
 
 ## 🎯 Goal
