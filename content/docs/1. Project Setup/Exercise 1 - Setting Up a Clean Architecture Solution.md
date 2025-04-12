@@ -3,7 +3,7 @@ title: "Setting Up A Clean Architecture Solution"
 date: "2023-09-07"
 lastmod: "2025-04-12"
 draft: false
-weight: 1
+weight: 101
 ---
 
 ## 🎯 Goal
